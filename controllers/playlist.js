@@ -12,6 +12,7 @@ const playlist = {
       title: 'Playlist',
       playlist: playlistStore.getPlaylist(playlistId),
     };
+    logger.info('about to render', viewData.playlist);
     response.render('playlist', viewData);
   },
     deleteSong(request, response) {

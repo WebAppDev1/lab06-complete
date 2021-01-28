@@ -27,9 +27,11 @@
           "duration": 4
         },
         {
-          "id": "d9613056-2c58-4f4b-a630-d479e16e72de",
-          "title": "New Song",
-          "artist": "New Artist"
+          "id": "daab2897-e925-4999-900e-2327f7a7cbcb",
+          "title": "New song",
+          "artist": "Artist",
+          "genre": "Genre",
+          "duration": "5"
         }
       ]
     },
@@ -79,6 +81,48 @@
           "artist": "Beethoven",
           "genre": "Classical",
           "duration": 45
+        }
+      ]
+    },
+    {
+      "id": "1a945480-dedb-4a67-b5cd-0af287b50931",
+      "title": "New playlist",
+      "duration": "35",
+      "songs": [
+        {
+          "id": "5395caf3-7188-4d06-9265-b190f5099384",
+          "title": "New song",
+          "artist": "artist",
+          "genre": "genre",
+          "duration": "4"
+        }
+      ]
+    },
+    {
+      "id": "ab343e32-c390-42bb-92ec-cc9a45eff4e3",
+      "title": "Test playlist",
+      "duration": "30",
+      "songs": [
+        {
+          "id": "68d9505b-961b-425c-8a7a-dde81cd0229d",
+          "title": "new song",
+          "artist": "new artist",
+          "genre": "genre",
+          "duration": "5"
+        }
+      ]
+    },
+    {
+      "id": "3f320d20-2593-4432-8b20-4aea507f86a5",
+      "title": "Test 2",
+      "duration": "879",
+      "songs": [
+        {
+          "id": "758389cb-20c0-4d0a-b070-d9c81349a942",
+          "title": "CSS",
+          "artist": "new artist",
+          "genre": "genre",
+          "duration": "30"
         }
       ]
     }
