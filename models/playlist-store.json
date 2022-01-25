@@ -1,135 +1,22 @@
 {
   "playlistCollection": [
     {
-      "id": "01",
-      "title": "Beethoven Sonatas",
-      "duration": 35,
-      "songs": [
-        {
-          "id": "04",
-          "title": "Piano Sonata No. 3",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 5
-        },
-        {
-          "id": "05",
-          "title": "Piano Sonata No. 7",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 6
-        },
-        {
-          "id": "06",
-          "title": "Piano Sonata No. 10",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 4
-        },
-        {
-          "id": "daab2897-e925-4999-900e-2327f7a7cbcb",
-          "title": "New song",
-          "artist": "Artist",
-          "genre": "Genre",
-          "duration": "5"
-        }
-      ]
-    },
-    {
-      "id": "02",
-      "title": "Beethoven Concertos",
-      "duration": 23,
-      "songs": [
-        {
-          "id": "07",
-          "title": "Piano Concerto No. 0",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 8
-        },
-        {
-          "id": "08",
-          "title": "Piano Concerto No. 4",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 3
-        },
-        {
-          "id": "09",
-          "title": "Piano Concerto No. 6",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 4
-        }
-      ]
-    },
-    {
-      "id": "03",
-      "title": "Beethoven Variations",
-      "duration": 67,
-      "songs": [
-        {
-          "id": "10",
-          "title": "Opus 34: Six variations on a theme in F major",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 11
-        },
-        {
-          "id": "11",
-          "title": "Opus 120: Thirty-three variations on a waltz by Diabelli in C majo",
-          "artist": "Beethoven",
-          "genre": "Classical",
-          "duration": 45
-        }
-      ]
-    },
-    {
-      "id": "1a945480-dedb-4a67-b5cd-0af287b50931",
+      "id": "455d22dc-257a-4ad2-b8ac-e317b6bee3fe",
       "title": "New playlist",
+      "duration": "35",
+      "songs": []
+    },
+    {
+      "id": "66cc4812-d3b3-4cb0-bfb6-41f9885df54e",
+      "title": "New playlist 2",
       "duration": "35",
       "songs": [
         {
-          "id": "5395caf3-7188-4d06-9265-b190f5099384",
+          "id": "5b11dacf-9c54-4900-9fbe-7692dfb01fc6",
           "title": "New song",
-          "artist": "artist",
-          "genre": "genre",
-          "duration": "4"
-        },
-        {
-          "id": "1f7eaf66-50fa-4d7f-85c6-d0566a5e388e",
-          "title": "f",
-          "artist": "f",
-          "genre": "f",
-          "duration": "3"
-        }
-      ]
-    },
-    {
-      "id": "ab343e32-c390-42bb-92ec-cc9a45eff4e3",
-      "title": "Test playlist",
-      "duration": "30",
-      "songs": [
-        {
-          "id": "68d9505b-961b-425c-8a7a-dde81cd0229d",
-          "title": "new song",
-          "artist": "new artist",
-          "genre": "genre",
+          "artist": "Rosanne",
+          "genre": "Rock",
           "duration": "5"
-        }
-      ]
-    },
-    {
-      "id": "3f320d20-2593-4432-8b20-4aea507f86a5",
-      "title": "Test 2",
-      "duration": "879",
-      "songs": [
-        {
-          "id": "758389cb-20c0-4d0a-b070-d9c81349a942",
-          "title": "CSS",
-          "artist": "new artist",
-          "genre": "genre",
-          "duration": "30"
         }
       ]
     }
