@@ -41,18 +41,23 @@ welcomeUserDiv &&
     welcomeUserDiv.style.display = "none";
   });
 
-const yellowbtn  = document.querySelector(".yellow");
+const ratebtn  = document.querySelector("#rateit");
 
-yellowbtn &&
-  yellowbtn.addEventListener("click", () => {
+ratebtn &&
+  ratebtn.addEventListener("click", () => {
    let userRating = parseInt(prompt("Rate this collection (from 1 to 5 stars)"));
   if (userRating>5 || userRating<1 || isNaN(userRating)){
     alert("Try again with a number between 1 and 5!");
   }
   else{
-    $("#rating").html("You gave a rating of: ");
+
+    document.querySelector("#rating").innerHTML = "You gave a rating of: ";
     for (let i=0; i < userRating; i++){
-        $("#rating").append("<i class='yellow star icon'></i>");
+        document.querySelector("#rating").innerHTML +="<i class='yellow star icon'></i>";
     }
-  } 
+  }
 });
+
+$(".delsong").click(() => confirm('Really delete this song?'))
+
+$(".delplaylist").click(() => confirm('Really delete this playlist?'))
