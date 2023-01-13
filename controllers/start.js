@@ -1,7 +1,7 @@
 'use strict';
 
 // import all required modules
-const logger = require('../utils/logger');
+import logger from '../utils/logger.js';
 
 // create start object
 const start = {
@@ -23,4 +23,4 @@ const start = {
 };
 
 // export the start module
-module.exports = start;
+export default start;

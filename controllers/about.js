@@ -1,8 +1,8 @@
 'use strict';
 
 // import all required modules
-const logger = require('../utils/logger');
-const developerStore = require('../models/developer-store.js');
+import logger from '../utils/logger.js';
+import developerStore from '../models/developer-store.js';
 
 // create about object
 const about = {
@@ -25,4 +25,4 @@ const about = {
 };
 
 // export the about module
-module.exports = about;
+export default about;

@@ -1,44 +1,51 @@
 'use strict';
 
-const _ = require('lodash');
-const JsonStore = require('./json-store');
+import logger from '../utils/logger.js';
+import JsonStore from './json-store.js';
 
 const playlistStore = {
 
   store: new JsonStore('./models/playlist-store.json', { playlistCollection: [] }),
   collection: 'playlistCollection',
 
+  //updated
   getAllPlaylists() {
     return this.store.findAll(this.collection);
   },
-
+  
+  //updated
   getPlaylist(id) {
-    return this.store.findOneBy(this.collection, { id: id });
+    return this.store.findOneBy(this.collection, (collection => collection.id === id));
   },
-
-  addPlaylist(playlist) {
-    this.store.add(this.collection, playlist);
+  
+  //updated
+  removeSong(id, songId) {
+    const arrayName = "songs";
+    this.store.removeItem(this.collection, id, arrayName, songId);
   },
-
+  
+  //updated
   removePlaylist(id) {
     const playlist = this.getPlaylist(id);
-    this.store.remove(this.collection, playlist);
+    this.store.removeCollection(this.collection, playlist);
   },
-
+  
+  //added
   removeAllPlaylists() {
     this.store.removeAll(this.collection);
   },
-
+  
+  //updated
+  addPlaylist(playlist) {
+    this.store.addCollection(this.collection, playlist);
+  },
+  
+  //updated
   addSong(id, song) {
-    const playlist = this.getPlaylist(id);
-    playlist.songs.push(song);
+    const arrayName = "songs";
+    this.store.addItem(this.collection, id, arrayName, song);
   },
 
-  removeSong(id, songId) {
-    const playlist = this.getPlaylist(id);
-    const songs = playlist.songs;
-    _.remove(songs, { id: songId});
-  },
 };
 
-module.exports = playlistStore;
+export default playlistStore;
