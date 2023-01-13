@@ -1,8 +1,8 @@
 'use strict';
 
-const logger = require('../utils/logger');
-const uuid = require('uuid');
-const playlistStore = require('../models/playlist-store');
+import logger from '../utils/logger.js';
+import { v4 as uuidv4 } from 'uuid';
+import playlistStore from '../models/playlist-store.js';
 
 const playlist = {
   index(request, response) {
@@ -26,7 +26,7 @@ const playlist = {
     const playlistId = request.params.id;
     const playlist = playlistStore.getPlaylist(playlistId);
     const newSong = {
-      id: uuid(),
+      id: uuidv4(),
       title: request.body.title,
       artist: request.body.artist,
       genre: request.body.genre,
@@ -37,4 +37,4 @@ const playlist = {
   },
 };
 
-module.exports = playlist;
+export default playlist;
