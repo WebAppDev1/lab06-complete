@@ -1,16 +1,23 @@
 {
   "playlistCollection": [
     {
-      "id": "66cc4812-d3b3-4cb0-bfb6-41f9885df54e",
-      "title": "New playlist 2",
+      "id": "02fac373-74d4-45f0-9f49-8aaf344ae433",
+      "title": "Test playlist 2",
       "duration": "35",
       "songs": [
         {
-          "id": "5b11dacf-9c54-4900-9fbe-7692dfb01fc6",
-          "title": "New song",
+          "id": "8ec7a69b-082d-469a-a744-1582ac1e4857",
+          "title": "Test",
           "artist": "Rosanne",
-          "genre": "Rock",
-          "duration": "5"
+          "genre": "Pop",
+          "duration": "3"
+        },
+        {
+          "id": "1e1376d7-f6d4-4a76-92a1-42c64d2c0ce2",
+          "title": "Test",
+          "artist": "Test",
+          "genre": "Test",
+          "duration": "4"
         }
       ]
     }
