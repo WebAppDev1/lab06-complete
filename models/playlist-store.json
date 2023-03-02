@@ -20,6 +20,38 @@
           "duration": "4"
         }
       ]
+    },
+    {
+      "id": "f455f2fb-9d4b-419b-8f8e-c281fbffc487",
+      "title": "lala",
+      "duration": "lala",
+      "songs": []
+    },
+    {
+      "id": "12f682e9-a9ee-4b26-845d-ecb8ecb7887b",
+      "title": "lala",
+      "duration": "00:00:04",
+      "songs": []
+    },
+    {
+      "id": "8e56e036-464b-4ad8-a4e0-e1920fe9b538",
+      "title": "Class playlist",
+      "duration": "25",
+      "songs": [
+        {
+          "id": "61f4f966-37f5-4db5-868c-8581f113a671",
+          "title": "Never gonna give you up",
+          "artist": "Rick Astley",
+          "genre": "Pop",
+          "duration": "3:33"
+        }
+      ]
+    },
+    {
+      "id": "f221354b-cab8-4e2e-a169-16c03f1ddc49",
+      "title": "Blow Gabriel  Blow",
+      "duration": "00:04:54",
+      "songs": []
     }
   ]
 }
